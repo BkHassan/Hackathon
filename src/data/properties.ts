@@ -79,6 +79,6 @@ export const SAMPLE_PROPERTIES: Property[] = [
     type: 'apartment',
     imageUrl: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
     distance: 3.5,
-    available: true
+    available: true 
   }
 ];
