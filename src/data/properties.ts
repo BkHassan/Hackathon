@@ -64,5 +64,21 @@ export const SAMPLE_PROPERTIES: Property[] = [
     imageUrl: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
     distance: 1.5,
     available: true
+  },
+  {
+    id: '5',
+    title: 'Student Apartment',
+    description: 'Full apartment with modern amenities',
+    price: 720,
+    location: {
+      city: 'El Jadida',
+      address: '321 Colleg Road',
+      coordinates: { lat: 40.7128, lng: -74.0060 }
+    },
+    amenities: ['kitchen', 'private-bathroom', 'wifi'],
+    type: 'apartment',
+    imageUrl: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
+    distance: 3.5,
+    available: true
   }
 ];
